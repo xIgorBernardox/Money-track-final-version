@@ -2,6 +2,7 @@
   "expo": {
     "name": "money-track",
     "slug": "money-track",
+    "owner": "glitchcore-money-track-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1591ce32-103a-47cf-adbf-887acb85147e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1591ce32-103a-47cf-adbf-887acb85147e"
     }
   }
 }
