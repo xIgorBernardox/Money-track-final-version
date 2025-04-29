@@ -7,8 +7,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   logo: {
-    width: 200,
-    height: 200,
+    width: 250,
+    height: 250,
   },
   title: {
     fontSize: 28,

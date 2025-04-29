@@ -32,7 +32,7 @@ const RegisterScreen = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../assets/money-track-logo-2.png")}
+        source={require("../assets/logo-cadastro.png")}
         style={styles.logo}
         resizeMode="contain"
       />

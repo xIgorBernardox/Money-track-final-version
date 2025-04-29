@@ -164,7 +164,7 @@ const PrimaryList = () => {
       ]}
       onLongPress={drag}
       delayLongPress={100}
-      activeOpacity={0.3} // Adiciona feedback visual ao tocar
+      activeOpacity={0.7}
     >
       <TouchableOpacity
         style={styles.itemButton}
@@ -214,8 +214,8 @@ const PrimaryList = () => {
             setLists(data);
             updateListOrderInDB(data);
           }}
-          activationDistance={5} // Melhora a sensibilidade do arrasto
-          dragHitSlop={{ left: 15 }}
+          activationDistance={5}
+          dragHitSlop={{ left: 15, right: 15 }}
           // autoscrollSpeed={200} // Velocidade do scroll automático
         />
       </View>

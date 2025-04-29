@@ -7,9 +7,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   logo: {
-    width: 200,
-    height: 200,
-    marginBottom: 10,
+    width: 250,
+    height: 250,
   },
   input: {
     width: '100%',

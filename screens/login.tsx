@@ -39,7 +39,7 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../assets/money-track-logo.png')}
+        source={require('../assets/logo-login.png')}
         style={styles.logo}
         resizeMode="contain"
       />
