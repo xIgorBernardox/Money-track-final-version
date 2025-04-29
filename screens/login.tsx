@@ -68,6 +68,13 @@ const LoginScreen = () => {
       <TouchableOpacity onPress={goToRegister}>
         <Text style={styles.registerText}>Não tem conta? Registre-se</Text>
       </TouchableOpacity>
+      <View>
+        <Image
+          source={require('../assets/powered-glitchcore.png')}
+          style={styles.logo}
+          resizeMode="contain"
+        />
+      </View>
     </View>
   );
 };
